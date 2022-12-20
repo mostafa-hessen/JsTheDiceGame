@@ -180,44 +180,67 @@ main {
   main {
     flex-direction: column;
     width: 80%;
-    height: 92%;
+    height: 82%;
   }
   .players{
-    padding: 5rem;
+    padding: 4rem;
   }
   .btn--roll {
-    top: 36.5rem;
+    top:47% ;
 
     left: 25%;
+    font-size: 15px;
 }
+.name{
+  font-size: 27px;
+}
+.current  {
+  padding: 14px ;
+  width: 59%;
 
+}
+.current  p  {
+  font-size: 15px !important;
+
+}
 .btn--roll .content{
-  display: none;
-  background-color: red;
+  /* display: none; */
+  /* background-color: red; */
 }
-.btn--roll::after{
+/* .btn--roll::after{
   content: "🎲 Roll ";
+} */
+.icon{
+  /* font-size: 10px; */
 }
+
 .btn--hold{
-  top: 36.5rem;
+
+  top:47%;
+  font-size: 15px;
 
 
-  left: 72%;
+  left: 75%;
   /* height: 50px; */
   padding: 10px 15px;
 
 }
 .dice{
-top: 36.5rem;
+top: 47%;
 /* left: 25rem; */
 left: 50%;
 
-width: 50px;
+width: 40px;
 border-radius: 50%;
-height: 50px;
+height: 40px;
 }
 .btn--new {
-  top: 5px;
+  top: 3px;
+  padding: 5px 7px;
+
+}
+.btns-container .btn{
+  padding: 5px !important;
 }
 .icon{
   display: inline-block;
@@ -225,5 +248,9 @@ height: 50px;
   margin-left: 0;
 }
 
-
+.nameOfbtns{
+  /* display: none !important; */
+  background-color: red;
+  display: none;
+}
 }
